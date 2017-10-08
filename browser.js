@@ -5,7 +5,7 @@ const isLoading = false;
 
 onload = function() {
   const webview = document.querySelector('webview');
-  const css = fs.readFileSync(path.join(__dirname, 'assets', 'overwrite.css'));
+  const css = fs.readFileSync(path.join(__dirname, 'assets/overwrite.css'));
 
   document.querySelector('#back').onclick = function() {
     webview.goBack();

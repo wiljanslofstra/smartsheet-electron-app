@@ -1,4 +1,4 @@
-const uuidV4 = require('uuid/v4');
+const uuidV4 = require('./uuidv4');
 
 const ID = 'UA-107704260-1';
 
@@ -26,7 +26,6 @@ module.exports = {
         fetch(`${base}&${params.join('&')}`)
             .then((response, body) => {
                 if (response && response.status === 200) {
-                    console.log(response);
                     this.saveClientID(tempId);
                 }
             })

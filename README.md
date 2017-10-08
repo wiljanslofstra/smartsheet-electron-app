@@ -1,4 +1,4 @@
-# Smartsheet
+# Smartsheet Electron app
 
 _This app is not affiliated to Smartsheet Inc._
 

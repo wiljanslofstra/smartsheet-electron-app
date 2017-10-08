@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/photon/css/photon.css">
+    <link rel="stylesheet" href="assets/browser.css">
+    <script src="browser.js"></script>
+  <body>
+    <div class="window">
+      <header class="toolbar toolbar-header draggable">
+        <h1 class="title">Smartsheet</h1>
+
+        <div class="toolbar-actions">
+          <div class="btn-group">
+            <button id="back" class="btn btn-default btn-large">
+              <span class="icon icon-left"></span>
+            </button>
+
+            <button id="forward" class="btn btn-default btn-large">
+              <span class="icon icon-right"></span>
+            </button>
+
+            <button id="refresh" class="btn btn-default btn-large">
+                <span class="icon icon-arrows-ccw"></span>
+              </button>
+          </div>
+
+          <button id="home" class="btn btn-default btn-large">
+            <span class="icon icon-home icon-text"></span>
+            Home
+          </button>
+        </div>
+      </header>
+
+      <div class="window-content">
+        <webview src="https://app.smartsheet.com/"></webview>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+.clsBody {
+    background-color: #3a6693 !important;
+}
+
+#divPostFormInfo {
+    display: none;
+}
+
+.clsJspForm {
+    box-shadow: none !important;
+}
+
+.clsDesktopHeader .clsDesktopLogo {
+    display: none !important;
+}
+
+.clsDesktop.clsDesktopSheet {
+}
+
+.clsDesktopContent.clsDesktopBox {
+    background: transparent !important;
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+.clsDesktopBelowTabs {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.clsDesktopTabContent {
+    background: #294b6d !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.clsDesktopTabActive .clsDesktopTabContent {
+    background: #fff !important;
+    color: #294b6d !important;
+}
+
+.clsDesktopTabs {
+    font-size: 0;
+}
+
+.clsDesktopTabs > * {
+    font-size: 14px;
+    margin: 0;
+}
+
+.clsDesktopTab {
+    border-radius: 0 !important;
+    border-right: 1px solid #1c3650;
+}
+
+.clsDesktopTab:first-child {
+    border-top-left-radius: 6px !important;
+}
+
+.clsDesktopTab:last-child {
+    border-top-right-radius: 6px !important;
+    border-right: 0 !important;
+}
+
+.clsTableHeadingBackground,
+.clsTableHeadingGradient {
+    background: linear-gradient(to bottom, #28527e, #264564) !important;
+    border: 0 !important;
+}
+
+.clsTableHeadingSeparator {
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.clsSearchField {
+    background-color: #4c7eb1 !important;
+    border: 0 !important;
+}
+
+[data-client-id="ch3"] .clsGAW:last-child > div {
+    display: none !important;
+}

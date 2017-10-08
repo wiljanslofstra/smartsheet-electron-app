@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.window-content webview {
+    flex: 1 1 auto;
+    height: auto;
+}
+
+.toolbar {
+    background: #3a6693;
+    border: 0;
+    box-shadow: none;
+}
+
+.toolbar .title {
+    color: #fff;
+}
+
+.toolbar .btn {
+    background: linear-gradient(to bottom, #28527e, #264564);
+    border: 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+    color: #fff;
+}
+
+.toolbar .btn:active {
+    background: linear-gradient(to bottom, #264564, #28527e);
+}
+
+.toolbar .btn .icon {
+    color: #fff;
+}
+
+.btn-group .btn + .btn {
+    border-left-color: #264564;
+}

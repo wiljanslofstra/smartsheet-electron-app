@@ -1,0 +1,21 @@
+{
+  "name": "smartsheet-electron-app",
+  "version": "1.0.0",
+  "description": "A minimal wrapper around SmartSheet",
+  "main": "main.js",
+  "scripts": {
+    "start": "NODE_ENV=development electron .",
+    "package-osx": "electron-packager . \"Smartsheet\" --platform=darwin --arch=x64 --icon=assets/icon.icns --out=dist",
+    "package-win": "electron-packager . \"Smartsheet\" --platform=win32 --arch=all --icon=assets/icon.ico --out=dist"
+  },
+  "repository": "",
+  "author": "Wiljan Slofstra <wiljanslofstra@gmail.com>",
+  "devDependencies": {
+    "electron": "~1.7.8",
+    "electron-packager": "^9.1.0",
+    "electron-reload": "^1.2.2"
+  },
+  "dependencies": {
+    "uuid": "^3.1.0"
+  }
+}

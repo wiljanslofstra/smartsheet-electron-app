@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const analytics = require('./analytics');
 const isLoading = false;
 
 onload = function() {
@@ -25,6 +24,5 @@ onload = function() {
 
   webview.addEventListener("dom-ready", function() {
     webview.insertCSS(css.toString());
-    analytics.screen(webview.src);
   });
 };

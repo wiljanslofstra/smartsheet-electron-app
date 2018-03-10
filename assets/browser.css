@@ -9,7 +9,7 @@ body {
 }
 
 .toolbar {
-    background: #3a6693;
+    background: #353637;
     border: 0;
     box-shadow: none;
 }
@@ -19,14 +19,14 @@ body {
 }
 
 .toolbar .btn {
-    background: linear-gradient(to bottom, #28527e, #264564);
+    background: linear-gradient(to bottom, #222, #111);
     border: 0;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
     color: #fff;
 }
 
 .toolbar .btn:active {
-    background: linear-gradient(to bottom, #264564, #28527e);
+    background: linear-gradient(to bottom, #111, #222);
 }
 
 .toolbar .btn .icon {
@@ -34,5 +34,5 @@ body {
 }
 
 .btn-group .btn + .btn {
-    border-left-color: #264564;
+    border-left-color: #111;
 }

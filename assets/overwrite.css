@@ -1,5 +1,5 @@
 .clsBody {
-    background-color: #3a6693 !important;
+    background-color: #353637 !important;
 }
 
 #divPostFormInfo {
@@ -14,9 +14,6 @@
     display: none !important;
 }
 
-.clsDesktop.clsDesktopSheet {
-}
-
 .clsDesktopContent.clsDesktopBox {
     background: transparent !important;
     border: 0 !important;
@@ -26,17 +23,6 @@
 .clsDesktopBelowTabs {
     box-shadow: none !important;
     border: 0 !important;
-}
-
-.clsDesktopTabContent {
-    background: #294b6d !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-}
-
-.clsDesktopTabActive .clsDesktopTabContent {
-    background: #fff !important;
-    color: #294b6d !important;
 }
 
 .clsDesktopTabs {
@@ -63,9 +49,14 @@
 }
 
 .clsTableHeadingBackground,
-.clsTableHeadingGradient {
-    background: linear-gradient(to bottom, #28527e, #264564) !important;
+.clsTableHeadingGradient,
+.clsTableHeading {
+    background: linear-gradient(to bottom, #333, #111) !important;
     border: 0 !important;
+}
+
+.clsTableHeading:hover {
+    background: linear-gradient(to bottom, #555, #333) !important;
 }
 
 .clsTableHeadingSeparator {
@@ -74,10 +65,53 @@
 }
 
 .clsSearchField {
-    background-color: #4c7eb1 !important;
+    background-color: #222 !important;
     border: 0 !important;
 }
 
 [data-client-id="ch3"] .clsGAW:last-child > div {
     display: none !important;
+}
+
+.clsDesktopTab.clsDesktopTabActive {
+    background-color: #fff;
+}
+
+.clsActionBar {
+    background-color: #111 !important;
+    border-top-right-radius: 5px !important;
+}
+
+.clsActionBar td:first-child {
+    padding: 2px !important;
+}
+
+.clsActionBar .clsButton.clsStandardButton {
+    height: 30px !important;
+}
+
+.clsTableHeading {
+    background: transparent;
+}
+
+.clsDesktopTab {
+    outline: none;
+}
+
+.clsGRB {
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.clsNotificationItem {
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.clsTableHeadingGradient + .clsGMO[style*="height: 1px"] {
+    display: none;
+}
+
+.clsTableHeadingGradient + .clsGMO[style*="height: 1px"] + .clsGMO[style*="height: 1px"] {
+    background-color: #222 !important;
 }
